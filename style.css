@@ -1,0 +1,106 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(84, 82, 82), rgb(56, 58, 58), rgb(39, 34, 39));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 2px solid rgb(69, 79, 83);
+    padding: 20px;
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+p{
+    font-family: sans-serif;
+}
+p.desc{
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 30px;
+    font-weight: bolder;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+h3, h4, ul, ol{
+    text-align: left;
+    font-family: Arial;
+}
+.tabIn{
+    background-color: rgb(0, 0, 0);
+    padding: 5px;
+    font-style: italic;
+    color: white;
+}
+
+ul.navLinks{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-flex;
+}
+.navLinks li{
+    text-align: center;
+}
+
+li a:hover{
+    color: White;
+    border-radius: 5px;
+}
+h2 a{
+    text-decoration: none;
+    font-family: Arial;
+    color: #ffffff;
+}
+
+h3.forTable{
+    text-align: center;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial;
+
+}
+td, th{
+    padding: 5px;
+}
+.educ{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+table#educational-background {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial;
+}
+
+table#educational-background th, table#educational-background td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+table#educational-background thead th {
+    padding: 12px;
+    text-align: center;
+    background-color: rgb(16, 16, 16);
+    font-weight: bold;
+    color: white;
+}
+h2 a:hover{
+    border: 2px solid rgb(75, 92, 99);
+    background-color: rgb(92, 74, 77);
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
